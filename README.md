@@ -1,6 +1,6 @@
 # TTC Base
 
-The TTC Base are a set of gems, configurations and tasks that allow developers to have all they need to use SASS, Slim and Coffescript on new web project.
+The TTC Base are a set of gems, configurations and tasks that allow developers to have all they need to use on out Base Rails projects, keeping it easier to mantain among several projects.
 
 It consists of
 ```
@@ -20,13 +20,5 @@ Just add it to your Rails project Gemfile:
 gem 'ttc_rails_base', :git => 'git@git.tacticaltech.org:ttc/tcc_rails_base.git'
 ```
 
-Sample usage:
-```
-bundle exec rake ttc:configure
-```
-
 to do
-  - discuss dev tasks
-  - a "roubot linter" showing errors before deploy
-  - auto 500.html to nginx
-  - auto generate model schema
+  - discuss base tasks
