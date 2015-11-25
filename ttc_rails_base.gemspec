@@ -9,14 +9,13 @@ Gem::Specification.new do |s|
   #s.files       = ["lib/ttc_tasks.rb", "lib/append_tasks.rb"]
   s.homepage    = 'https://git.tacticaltech.org/ttc/rails_base'
 
-  s.add_dependency 'rake',         '~> 10.4' # to run tasks
-  s.add_dependency 'rails-rename', '~> 1.0'  # to rename the Base app
-  s.add_dependency 'web-console',  '~> 2.2'  # to debug on browser
-  s.add_dependency 'jbuilder',     '~> 2.3'  # to develop APIs
-  s.add_dependency 'quiet_assets', '~> 1.1'  # to better STDOUT on dev
-  s.add_dependency 'rails-erd',    '~> 1.4'  # to create model.png
-  s.add_dependency 'spring',       '~> 1.4'  # to auto reload app
-  s.add_dependency 'sdoc',         '~> 0.4'  # to generate docs
-  s.add_dependency 'rbtrace',      '~> 0.4'  # to deeply debug
-  s.add_dependency 'sqlite3',      '~> 1.3'  # to run tests
+  s.add_dependency 'rails',        '~> 4.2'     # web framework
+  s.add_dependency 'puma',         '~> 2.11'    # web server
+  s.add_dependency 'slim-rails',   '~> 3.0'     # template
+  s.add_dependency 'sass-rails',   '~> 5.0'     # style
+  s.add_dependency 'coffee-rails', '~> 4.1.0'   # coffescript
+  s.add_dependency 'jquery-rails', '>= 4.0.3'   # jquery
+  s.add_dependency 'uglifier',     '>= 1.3.0'   # minify js
+  s.add_dependency 'therubyracer', '>= 0.12.2'  # faster minify js
+  s.add_dependency 'oj',           '>= 2.12.10' # faster json
 end
