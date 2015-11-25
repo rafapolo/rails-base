@@ -1,6 +1,19 @@
 module TtcRailsBase
   class Engine < ::Rails::Engine
-    isolate_namespace TtcRailsBase
+
+    require 'slim'
+
+
+
+module TtcRailsBase
+  class Application < Rails::Application
+
+   config.generators do |g|
+      g.template_engine :slim
+    end
+  end
+end
+
 
     config.autoload_paths << File.expand_path('../../', __FILE__)
 
