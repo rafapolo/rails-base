@@ -13,11 +13,13 @@ gem 'jquery-rails', '>= 4.0.3'   # jquery
 gem 'uglifier',     '>= 1.3.0'   # minify js
 gem 'therubyracer', '>= 0.12.2'  # faster minify js
 gem 'oj',           '>= 2.12.10' # faster jsonts
+gem 'airbrake',     '~> 4.3.0'   # error catcher
 ```
 
-+ errbit configuration.
+Configurations for
++ errbit
 
-Just add it to your Rails project Gemfile:
+Just add it to your Rails project Gemfile
 ```
 gem 'ttc_rails_base', :git => 'git@git.tacticaltech.org:ttc/tcc_rails_base.git'
 ```

@@ -10,7 +10,7 @@ module TtcRailsBase
       class Application < Rails::Application
 
         # config errbit
-        if !Rails.env.development? && ENV['ERRBIT_KEY']
+        unless Rails.env.development? && ENV['ERRBIT_KEY']
           Airbrake.configure do |config|
             config.api_key = ENV['ERRBIT_KEY']
             config.host    = 'errbit.tacticaltech.org'
