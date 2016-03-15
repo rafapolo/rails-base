@@ -1,6 +1,6 @@
 # TTC Base
 
-The TTC Base are a set of gems, configurations and tasks that allow developers to have all they need to use on out Base Rails projects, keeping it easier to mantain among several projects.
+The TTC Base are a set of gems, configurations and tasks that allow developers to have all they need to use on our web projects stack, keeping it easier to be mantained among several projects.
 
 It consists of
 ```
@@ -15,10 +15,9 @@ gem 'therubyracer', '>= 0.12.2'  # faster minify js
 gem 'oj',           '>= 2.12.10' # faster jsonts
 ```
 
++ errbit configuration.
+
 Just add it to your Rails project Gemfile:
 ```
 gem 'ttc_rails_base', :git => 'git@git.tacticaltech.org:ttc/tcc_rails_base.git'
 ```
-
-to do
-  - discuss base tasks

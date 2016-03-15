@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'ttc_rails_base'
-  s.version     = '0.1.3'
+  s.version     = '0.1.4'
   s.license     = 'GPLv3'
   s.summary     = "A set of gems, shared configurations and tasks to make easy maintain Rails projects."
   s.description = "TTC shared base configurations"
