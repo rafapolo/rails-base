@@ -4,14 +4,14 @@ module TtcRailsBase
 
     require 'slim'
     require 'jquery/rails'
-    require "extend_string"
-    require 'airbrake'
+    require 'extend_string'
 
     module TtcRailsBase
       class Application < Rails::Application
 
         # config errbit
         unless Rails.env.development? && ENV['ERRBIT_KEY']
+          require 'airbrake'
           Airbrake.configure do |config|
             config.api_key = ENV['ERRBIT_KEY']
             config.host    = 'errbit.tacticaltech.org'

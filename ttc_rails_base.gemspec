@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'ttc_rails_base'
-  s.version     = '0.1.5'
+  s.version     = '0.1.6'
   s.license     = 'GPLv3'
   s.summary     = "A set of gems, shared configurations and tasks to make easy maintain Rails projects."
   s.description = "TTC shared base configurations"
@@ -19,6 +19,6 @@ Gem::Specification.new do |s|
   s.add_dependency 'uglifier',     '>= 1.3.0'   # minify js
   s.add_dependency 'therubyracer', '>= 0.12.2'  # faster minify js
   s.add_dependency 'oj',           '>= 2.12.10' # faster json
-  s.add_dependency 'airbrake',    '~> 4.3.0'   # error catcher
-
+  s.add_dependency 'airbrake',     '~> 4.3.0'   # error catcher
+  s.add_dependency 'friendly_id',  '~> 5.2'     # generate URL slugs
 end

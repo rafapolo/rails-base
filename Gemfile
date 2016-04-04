@@ -11,3 +11,6 @@ gem 'uglifier',     '>= 1.3.0'   # minify js
 gem 'therubyracer', '>= 0.12.2'  # faster minify js
 gem 'oj',           '>= 2.12.10' # faster json
 gem 'airbrake',     '~> 4.3.0'   # error catcher
+gem 'friendly_id',  '~> 5.2'     # generate URL slugs
+
+gemspec
