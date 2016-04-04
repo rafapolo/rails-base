@@ -20,5 +20,5 @@ Gem::Specification.new do |s|
   s.add_dependency 'therubyracer', '>= 0.12.2'  # faster minify js
   s.add_dependency 'oj',           '>= 2.12.10' # faster json
   s.add_dependency 'airbrake',     '~> 4.3.0'   # error catcher
-  s.add_dependency 'friendly_id',  '~> 5.2'     # generate URL slugs
+  s.add_dependency 'friendly_id',  '~> 5.1'     # generate URL slugs
 end
