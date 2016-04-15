@@ -1,8 +1,8 @@
-
 module TtcRailsBase
   class Engine < ::Rails::Engine
 
     require 'slim'
+    require 'friendly_id'
     require 'jquery/rails'
     require 'extend_string'
 
