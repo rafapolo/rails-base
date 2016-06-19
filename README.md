@@ -24,5 +24,5 @@ Configurations for
 
 Just add it to your Rails project Gemfile
 ```
-gem 'ttc_rails_base', :git => 'git@github.com:rafapolo/rails-base.git'
+gem 'rails_base', :git => 'git@github.com:rafapolo/rails-base.git'
 ```
