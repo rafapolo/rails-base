@@ -5,6 +5,7 @@ module RailsBase
     require 'friendly_id'
     require 'jquery/rails'
     require 'extend_string'
+    require 'will_paginate'
 
     module RailsBase
       class Application < Rails::Application
