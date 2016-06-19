@@ -1,11 +1,11 @@
 Gem::Specification.new do |s|
-  s.name        = 'ttc_rails_base'
+  s.name        = 'rails_base'
   s.version     = '0.1.7'
   s.license     = 'GPLv3'
   s.summary     = "A set of gems, shared configurations and tasks to make easy maintain Rails projects."
-  s.description = "TTC shared base configurations"
+  s.description = "ExtraPolo shared base configurations"
   s.authors     = ["polo"]
-  s.email       = 'stalker@tacticaltech.org'
+  s.email       = 'x@extrapolo.com'
   s.files       = Dir["{config,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
   s.homepage    = 'https://git.tacticaltech.org/ttc/rails_base'
 
