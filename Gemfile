@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 gem 'rails',          '~> 4.2'     # web framework
 gem 'puma',           '~> 2.11'    # web server
-gem 'mysql2',         '= 0.3.18'   # database
+gem 'mysql2',                      # database
 gem 'slim-rails',     '~> 3.0'     # template
 gem 'sass-rails',     '~> 5.0'     # style
 gem 'coffee-rails',   '~> 4.1.0'   # coffescript
